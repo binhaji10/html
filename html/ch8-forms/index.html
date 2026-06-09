@@ -1,0 +1,185 @@
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hospital Patient Registration</title>
+</head>
+<body>
+
+<form action="#" method="post">
+
+    <h1>Hospital Patient Registration Form</h1>
+
+    <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" required>
+        <br><br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" required>
+        <br><br>
+
+        <label>Date of Birth:</label>
+        <input type="date">
+        <br><br>
+
+        <label>Gender:</label>
+
+        <input type="radio" name="gender" value="male">
+        Male
+
+        <input type="radio" name="gender" value="female">
+        Female
+
+        <input type="radio" name="gender" value="other">
+        Other
+
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email">
+        <br><br>
+
+        <label>Phone:</label>
+        <input type="tel">
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Address Information</legend>
+
+        <label>Address:</label>
+        <textarea rows="4" cols="40"></textarea>
+
+        <br><br>
+
+        <label>Postcode:</label>
+        <input type="text">
+
+        <br><br>
+
+        <label>Country:</label>
+        <select>
+            <option>United Kingdom</option>
+            <option>Somalia</option>
+            <option>United States</option>
+            <option>Canada</option>
+            <option>kenya</option>
+            <option>Australia</option>
+        </select>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Medical Information</legend>
+
+        <label>Blood Group:</label>
+        <select>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+            <option>O+</option>
+            <option>O-</option>
+        </select>
+
+        <br><br>
+
+        <label>Allergies:</label>
+        <textarea rows="4"></textarea>
+
+        <br><br>
+
+        <label>Medical History:</label>
+        <textarea rows="5"></textarea>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Hospital Admission</legend>
+
+        <label>Department:</label>
+        <select>
+            <option>Emergency</option>
+            <option>Cardiology</option>
+            <option>Neurology</option>
+            <option>Pediatrics</option>
+            <option>Orthopedics</option>
+        </select>
+
+        <br><br>
+
+        <label>Ward Number:</label>
+        <input type="number">
+
+        <br><br>
+
+        <label>Bed Number:</label>
+        <input type="number">
+
+        <br><br>
+
+        <label>Admission Date:</label>
+        <input type="date">
+
+        <br><br>
+
+        <label>Priority Level:</label>
+        <input type="range" min="1" max="5">
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Emergency Contact</legend>
+
+        <label>Contact Name:</label>
+        <input type="text">
+
+        <br><br>
+
+        <label>Relationship:</label>
+        <input type="text">
+
+        <br><br>
+
+        <label>Phone Number:</label>
+        <input type="tel">
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Documents</legend>
+
+        <label>ID Card:</label>
+        <input type="file">
+
+        <br><br>
+
+        <label>Insurance Documents:</label>
+        <input type="file">
+    </fieldset>
+
+    <br>
+
+    <input type="checkbox" required>
+    I confirm the information provided is accurate.
+
+    <br><br>
+
+    <button type="submit">Register Patient</button>
+    <button type="reset">Clear Form</button>
+
+</form>
+
+</body>
+</html>
